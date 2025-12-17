@@ -1,0 +1,24 @@
+<component>
+	<name>org.freedesktop.IBus.MazaMarathi</name>
+	<description>Maza Marathi Input Tool</description>
+	<exec>/usr/bin/python3 /usr/share/maza-marathi/marathi_ibus.py</exec>
+	<version>1.0</version>
+	<author>Antigravity</author>
+	<license>GPL</license>
+	<homepage>http://example.com</homepage>
+	<textdomain>maza-marathi</textdomain>
+
+	<engines>
+		<engine>
+			<name>maza-marathi</name>
+			<language>mr</language>
+			<license>GPL</license>
+			<author>Antigravity</author>
+			<icon>/usr/share/maza-marathi/icons/marathi.png</icon>
+			<layout>us</layout>
+			<longname>Maza Marathi</longname>
+			<description>Maza Marathi Input</description>
+			<rank>99</rank>
+		</engine>
+	</engines>
+</component>
